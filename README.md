@@ -14,8 +14,6 @@ $ npm i --save-dev cy-view
 ### Usage
 ```javascript
 import cyView from 'cy-view';
- 
-import cyView from 'cy-view';
 
 const devices = [
 	{
