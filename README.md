@@ -33,7 +33,7 @@ const devices = [
 	}
 ];
 
-// Add urls to url's to test against
+// Add urls to test against
 const urls = [
 	'https://ao.com/product/idc8t3b-indesit-eco-time-condenser-tumble-dryer-white-38191-18.aspx',
 	'https://ao.com/product/zwf01483wr-zanussi-lindo300-washing-machine-white-29672-1.aspx'
