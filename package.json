@@ -1,18 +1,22 @@
 {
-  "name": "cypress-devicer",
-  "version": "1.0.0",
-  "description": "A utility function to run Cypress tests on multiple viewports",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "cypress",
-    "device",
-    "viewport",
-    "utility",
-    "testing"
-  ],
-  "author": "Andy Coupe",
-  "license": "ISC"
+	"name": "cypress-devicer",
+	"version": "1.0.2",
+	"homepage": "https://github.com/andrewmcoupe/cy-view",
+	"description": "A utility function to run Cypress tests on multiple viewports",
+	"main": "index.js",
+	"scripts": {
+		"test": "no tests specified"
+	},
+	"keywords": [
+		"cypress",
+		"device",
+		"viewport",
+		"utility",
+		"testing"
+	],
+	"author": "Andy Coupe",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "3.1.3"
+	}
 }
