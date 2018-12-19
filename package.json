@@ -1,6 +1,6 @@
 {
-	"name": "cypress-devicer",
-	"version": "1.0.3",
+	"name": "cy-view",
+	"version": "1.0.4",
 	"homepage": "https://github.com/andrewmcoupe/cy-view",
 	"description": "A utility function to run Cypress tests on multiple viewports",
 	"main": "index.js",
