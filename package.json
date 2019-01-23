@@ -17,7 +17,7 @@
 	],
 	"author": "Andy Coupe",
 	"license": "MIT",
-	"devDependencies": {
+	"dependencies": {
 		"cypress": "3.1.3"
 	}
 }
