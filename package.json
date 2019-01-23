@@ -12,10 +12,11 @@
 		"device",
 		"viewport",
 		"utility",
-		"testing"
+		"testing",
+		"end to end"
 	],
 	"author": "Andy Coupe",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"cypress": "3.1.3"
 	}
