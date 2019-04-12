@@ -13,7 +13,7 @@ $ npm i --save-dev cy-view
 ### Usage
 
 ```javascript
-import cyView from "cy-view";
+const cyView = require("cy-view");
 
 const devices = [
 	{
