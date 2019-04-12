@@ -39,14 +39,14 @@ const urls = [
 	"https://ao.com/product/zwf01483wr-zanussi-lindo300-washing-machine-white-29672-1.aspx"
 ];
 
-// Tell cy-view which devices you want to test on with an array of objects structured like the devices variable above
+// Pass cy-view an array of devices structured like the devices constant above
 const washingMachinePageTests = cyView(devices);
 
-// Pass your urls variable in and your good to go!
+// Pass your urls constant in and your good to go!
 washingMachinePageTests(urls, () => {
-	describe("My tests running on all viewports across various URLs", function() {
-		it("Does not do much!", function() {
-			expect(true).to.equal(false);
+	describe("My tests running on all viewports across various URLs", () => {
+		it("should test something...", () => {
+			//...do yo' thang
 		});
 	});
 });
