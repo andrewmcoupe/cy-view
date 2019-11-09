@@ -1,16 +1,19 @@
 # cy-view
 
-- Run tests suite across multiple viewports
+### Run tests suite across multiple viewports
 
-### Installation
-
-Install cy-view
+#### Installation
 
 ```sh
 $ npm i --save-dev cy-view
 ```
 
-### Usage
+#### Usage - CYPRESS MUST BE INSTALLED
+
+| Parameter | Type  |
+| --------- | ----- |
+| devices   | Array |
+| urls      | Array |
 
 ```javascript
 const cyView = require("cy-view");
