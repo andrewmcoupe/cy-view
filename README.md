@@ -1,3 +1,8 @@
+
+<a href="https://www.npmjs.com/package/cy-view">
+<img src="https://img.shields.io/npm/dt/cy-view" />
+</a>
+
 # cy-view
 
 ### Run tests suite across multiple viewports
