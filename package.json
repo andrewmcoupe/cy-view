@@ -6,8 +6,7 @@
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"scripts": {
-		"build": "tsc",
-		"prepare": "npm run build"
+		"build": "tsc"
 	},
 	"keywords": [
 		"cypress",
