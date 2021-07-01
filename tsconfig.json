@@ -12,10 +12,6 @@
 		"types": ["cypress", "node"],
 		"skipLibCheck": true
 	},
-	"typedocOptions": {
-		"mode": "modules",
-		"out": "docs"
-	},
 	"include": [
 		"**/*.ts",
 		"src/**/*",
