@@ -5,9 +5,14 @@ function prepareTestsForDevices(deviceList) {
         pageList.forEach(function (page) {
             context("" + page, function () {
                 deviceList.forEach(function (device) {
-                    context("Testing on " + device.model, function () {
+                    context("Testing on " + (Array.isArray(device) ? device[0] : device.model), function () {
                         beforeEach(function () {
-                            cy.viewport(device.width, device.height);
+                            if (Array.isArray(device)) {
+                                cy.viewport(device[0], device[1]);
+                            }
+                            else {
+                                cy.viewport(device.width, device.height);
+                            }
                             cy.visit(page);
                         });
                         callback();
